@@ -1,0 +1,25 @@
+sno=int(input('enter no:'))
+sname=input('enter name:')
+sgroup=input('enter group:')
+s1=int(input('enter s1 marks:'))
+s2=int(input('enter s2 marks:'))
+s3=int(input('enter S3 marks:'))
+as=int(input('enter as marks:'))
+ee=int(input('enter ee marks:'))
+if s1>=35 and s2>=35 and s3>=35 and as>=35 and ee>=35:
+  print('pass')
+else:
+  print('fail')
+
+
+Output
+enter no=1
+enter name=aditya
+enter group=mpcs
+enter s1 marks=80
+enter s2 marks=85
+enter S3 marks=90
+enter as marks=95
+enter ee marks =100
+
+'Pass'
