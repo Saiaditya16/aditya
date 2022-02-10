@@ -1,0 +1,9 @@
+a=int(input('enter number:'))
+if a%2==0:
+  Print('number is even')
+else:
+  Print('number is odd')
+
+Output
+ enter number=576
+ 'number is even'
